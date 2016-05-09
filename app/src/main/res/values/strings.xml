@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Aplikacja</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bletooth">Bletooth</string>
+    <string name="title_activity_server_bluetooth">ServerBluetooth</string>
+    <string name="title_activity_client_bluetooth">ClientBluetooth</string>
+    <string name="title_activity_serwer_bluetooth">SerwerBluetooth</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tytul_informacje">Informacje o Autorze</string>
+    <string name="tekst_informacje">Autorem programu jest Adam Denys, student Politechniki Warszawskiej.
+    Aplikacja jest pracą inżynierską.</string>
+    <string name="etykieta_ustawienia">Ustawienia...</string>
+    <string name="tytul_ustawienia">Ustawienia programu</string>
+    <string name="skrot_ustawienia">s</string>
+    <string name="tytul_muzyka">Muzyka</string>
+    <string name="podsumowanie_muzyka">Odtwarza muzykę w tle</string>
+    <string name="tytul_tryb">Tryb SKACZ sterowania w grze piłeczką</string>
+    <string name="podsumowanie_tryb">Gdy jest włączony, ptakiem steruje się poprzez ściskanie i luzowanie ucisku na piłeczce.
+    Gdy przyciśnie się i uwolni nacisk ptaszek skacze o pewną wysokość do góry jak przy kliknięciu w popularnej grze Flappy Bird.
+    Natomiast gdy jest wyłączona ta opcja, sterowaniem ptakiem wygląda tak: gdy piłeczka jest ściśnięta ptaszek frunie do góry, gdy brak ucisku na piłkę ptaszek spada.</string>
+    <string name="tytul_dotyk">Sterowanie dotykeim</string>
+    <string name="podsumowanie_dotyk">Gdy ta opcja jest włączono można sterować w grze ptaszkiem jak w grze Flappy Bird</string>
+    <string name="tytul_mac">MAC</string>
+    <string name="podsumowanie_mac">Adres MAC piłeczki</string>
+    <string name="tytul_statystyki">Statystyki dla:</string>
+    <string name="etykieta_pacjent">Pacjent</string>
+    <string name="etykieta_lekarz">Lekarz</string>
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_statystyki">Statystyki</string>
+    <string name="title_activity_wykresy_lekarz">WykresyLekarz</string>
+    <string name="title_activity_statystyki_pacjent">StatystykiPacjent</string>
+
+</resources>

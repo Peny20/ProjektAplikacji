@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="statystyki">
+        <item>@string/etykieta_pacjent</item>
+        <item>@string/etykieta_lekarz</item>
+    </array>
+</resources>

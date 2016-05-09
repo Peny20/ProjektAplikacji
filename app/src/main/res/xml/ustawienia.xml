@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<CheckBoxPreference
+    android:key="muzyka"
+    android:title="@string/tytul_muzyka"
+    android:summary="@string/podsumowanie_muzyka"
+    android:defaultValue="true" />
+<CheckBoxPreference
+        android:key="tryb"
+        android:title="@string/tytul_tryb"
+        android:summary="@string/podsumowanie_tryb"
+        android:defaultValue="false" />
+<CheckBoxPreference
+        android:key="dotyk"
+        android:title="@string/tytul_dotyk"
+        android:summary="@string/podsumowanie_dotyk"
+        android:defaultValue="false" />
+<com.example.adam.aplikacja.EditTextPreference
+    android:dialogTitle="MAC piłeczki"
+    android:key="mac"
+    android:summary="98:D3:31:40:1D:DC"
+    android:title="@string/podsumowanie_mac"
+    android:defaultValue="98:D3:31:40:1D:DC"/>
+</PreferenceScreen>
