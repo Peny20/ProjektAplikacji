@@ -12,7 +12,7 @@ public class Background extends GameObject{
 
     private Bitmap image;
     private int dx;
-    //private ArrayList<Background> bg;
+
 
     public Background(Bitmap res, int x)
     {
@@ -24,21 +24,14 @@ public class Background extends GameObject{
     public void update()
     {
         x+=dx;
-        //if(x<-(GamePanel.WIDTH)){
-        //    x=0;
-      //  }
+
     }
     public void draw(Canvas canvas)
     {
         try{
             canvas.drawBitmap(image,x,y,null);
         }catch(Exception e){}
-        //canvas.drawBitmap(image, x, y,null);
-       // if(x<0)
-      //  {
-       //     canvas.drawBitmap(image, x+GamePanel.WIDTH, y, null);
-//
-       // }
+
     }
 
 

@@ -41,11 +41,7 @@ public class menu extends Activity {
     Exchanger exchanger = new Exchanger();
     Context kontekst;
 
-    //public void onClick(View v) {
-       // Intent i = new Intent(this,Bletooth.class);
-      //  startActivity(i);
 
-    //}
     private static final String ZNACZNIK= "Tryb Gry";
     private void otworzDialogStatystyki()
     {
@@ -85,7 +81,7 @@ public class menu extends Activity {
         setContentView(R.layout.activity_menu);
         kontekst=this;
         PreferenceManager.setDefaultValues(this, R.xml.ustawienia, false);
-        // requestWindowFeature(Window.FEATURE_NO_TITLE);
+
          getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         przycisk = (Button) findViewById(R.id.button);

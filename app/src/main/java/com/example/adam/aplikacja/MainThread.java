@@ -42,7 +42,7 @@ public class MainThread extends Thread
                 synchronized (surfaceHolder) {
                     if(menu.cos1)
                     {
-                        //this.gamePanel.player.setPlaying(true);
+
                         if (!this.gamePanel.player.getPlaying()&& this.gamePanel.newGameCreated && this.gamePanel.reset) {
                             this.gamePanel.player.setPlaying(true);
 
@@ -54,12 +54,12 @@ public class MainThread extends Thread
                         if(this.gamePanel.player.getPlaying())
                         {
 
-                            //if(!this.gamePanel.started)this.gamePanel.started = true;
+
                             this.gamePanel.reset = false;
                             this.gamePanel.player.setUp(true);
                             this.gamePanel.iloscprz ++;
                         }
-                        //this.gamePanel.player.setUp(true);
+
                         menu.cos=false;
 
                     }
